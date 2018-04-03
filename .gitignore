@@ -1,0 +1,5 @@
+*.local
+*.res
+*.bcproj
+_*/
+Win*/
