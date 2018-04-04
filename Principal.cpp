@@ -113,6 +113,36 @@ void __fastcall TfPrincipal::BCancelaClick(TObject *Sender)
 		PServer->Visible = true;
 		InfProd();
 	}
+
+if (Sender == DirInstall)
+	{
+		fInd = '1';
+		BuscarDir();
+	}
+
+	if (Sender == DirBackups)
+	{
+		fInd = '2';
+		BuscarDir();
+	}
+
+	if (Sender == DirCertif)
+	{
+		fInd = '3';
+		BuscarDir();
+	}
+
+	if (Sender == DirOficios)
+	{
+		fInd = '4';
+		BuscarDir();
+	}
+
+	if (Sender == DirReport)
+	{
+		fInd = '5';
+		BuscarDir();
+	}
 }
 //---------------------------------------------------------------------------
 void __fastcall TfPrincipal::Timer1Timer(TObject *Sender)

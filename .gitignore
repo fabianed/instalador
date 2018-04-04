@@ -1,5 +1,6 @@
 *.local
 *.res
+*.vlb
 *.bcproj
 _*/
 Win*/

@@ -4,8 +4,8 @@ object DirList: TDirList
   BorderIcons = []
   BorderStyle = bsSingle
   Caption = 'Seleccione el directorio de instalaci'#243'n'
-  ClientHeight = 281
-  ClientWidth = 226
+  ClientHeight = 305
+  ClientWidth = 262
   Color = clWhite
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -17,24 +17,24 @@ object DirList: TDirList
   PixelsPerInch = 96
   TextHeight = 13
   object Label1: TLabel
-    Left = 44
-    Top = 217
-    Width = 172
+    Left = 92
+    Top = 251
+    Width = 109
     Height = 13
-    Caption = 'C:\...\Embarcadero\Studio\19.0\bin'
+    Caption = 'C:\Windows\System32'
   end
   object DirectoryListBox1: TDirectoryListBox
-    Left = 3
+    Left = 0
     Top = 23
-    Width = 220
-    Height = 210
+    Width = 254
+    Height = 222
     DirLabel = Label1
     TabOrder = 0
     StyleElements = []
   end
   object BAceptar: TButton
-    Left = 68
-    Top = 244
+    Left = 100
+    Top = 270
     Width = 89
     Height = 29
     Caption = 'Aceptar'

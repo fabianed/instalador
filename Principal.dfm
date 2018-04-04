@@ -384,6 +384,345 @@ object fPrincipal: TfPrincipal
       ParentFont = False
     end
   end
+  object PanSix: TPanel
+    Left = 8
+    Top = 95
+    Width = 578
+    Height = 245
+    BevelOuter = bvNone
+    TabOrder = 7
+    Visible = False
+    object Label14: TLabel
+      Left = 20
+      Top = 10
+      Width = 270
+      Height = 14
+      Caption = 'La instalaci'#243'n ha terminado satisfactoriamente.....'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -12
+      Font.Name = 'Tahoma'
+      Font.Style = []
+      ParentFont = False
+    end
+    object Label15: TLabel
+      Left = 195
+      Top = 108
+      Width = 4
+      Height = 14
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -12
+      Font.Name = 'Tahoma'
+      Font.Style = [fsBold]
+      ParentFont = False
+    end
+    object CheckBox2: TCheckBox
+      Left = 375
+      Top = 204
+      Width = 165
+      Height = 17
+      Checked = True
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -12
+      Font.Name = 'Tahoma'
+      Font.Style = []
+      ParentFont = False
+      State = cbChecked
+      TabOrder = 0
+    end
+    object CheckBox1: TCheckBox
+      Left = 375
+      Top = 175
+      Width = 165
+      Height = 17
+      Caption = 'Crear '#237'cono en el escritorio'
+      Checked = True
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -12
+      Font.Name = 'Tahoma'
+      Font.Style = []
+      ParentFont = False
+      State = cbChecked
+      TabOrder = 1
+    end
+  end
+  object PanFiv: TPanel
+    Left = 8
+    Top = 88
+    Width = 578
+    Height = 245
+    BevelOuter = bvNone
+    TabOrder = 8
+    Visible = False
+    object Label20: TLabel
+      Left = 382
+      Top = 95
+      Width = 4
+      Height = 14
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -12
+      Font.Name = 'Tahoma'
+      Font.Style = []
+      ParentFont = False
+    end
+    object Label13: TLabel
+      Left = 20
+      Top = 35
+      Width = 97
+      Height = 14
+      Caption = 'Copiando archivos'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -12
+      Font.Name = 'Tahoma'
+      Font.Style = []
+      ParentFont = False
+    end
+    object ProgressBar1: TProgressBar
+      Left = 104
+      Top = 94
+      Width = 366
+      Height = 17
+      TabOrder = 0
+    end
+  end
+  object PanFou: TPanel
+    Left = 8
+    Top = 96
+    Width = 578
+    Height = 245
+    BevelOuter = bvNone
+    TabOrder = 9
+    Visible = False
+    object Label7: TLabel
+      Left = 20
+      Top = 10
+      Width = 305
+      Height = 14
+      Caption = 'Indique la ubicaci'#243'n de instalaci'#243'n y carpetas adicionales'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -12
+      Font.Name = 'Tahoma'
+      Font.Style = []
+      ParentFont = False
+    end
+    object Label8: TLabel
+      Left = 40
+      Top = 52
+      Width = 61
+      Height = 14
+      Caption = 'Instalar en:'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -12
+      Font.Name = 'Tahoma'
+      Font.Style = []
+      ParentFont = False
+    end
+    object Label9: TLabel
+      Left = 53
+      Top = 85
+      Width = 48
+      Height = 14
+      Caption = 'Backups:'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -12
+      Font.Name = 'Tahoma'
+      Font.Style = []
+      ParentFont = False
+    end
+    object Label10: TLabel
+      Left = 20
+      Top = 118
+      Width = 81
+      Height = 14
+      Caption = 'Certificaciones:'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -12
+      Font.Name = 'Tahoma'
+      Font.Style = []
+      ParentFont = False
+    end
+    object Label11: TLabel
+      Left = 62
+      Top = 151
+      Width = 39
+      Height = 14
+      Caption = 'Oficios:'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -12
+      Font.Name = 'Tahoma'
+      Font.Style = []
+      ParentFont = False
+    end
+    object Label12: TLabel
+      Left = 48
+      Top = 184
+      Width = 53
+      Height = 14
+      Caption = 'Reportes:'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -12
+      Font.Name = 'Tahoma'
+      Font.Style = []
+      ParentFont = False
+    end
+    object EInstall: TEdit
+      Left = 112
+      Top = 48
+      Width = 300
+      Height = 24
+      AutoSelect = False
+      AutoSize = False
+      BevelInner = bvNone
+      BevelKind = bkFlat
+      BevelOuter = bvNone
+      BiDiMode = bdLeftToRight
+      BorderStyle = bsNone
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clGray
+      Font.Height = -13
+      Font.Name = 'Tahoma'
+      Font.Style = []
+      ParentBiDiMode = False
+      ParentFont = False
+      TabOrder = 0
+    end
+    object EBackups: TEdit
+      AlignWithMargins = True
+      Left = 112
+      Top = 81
+      Width = 300
+      Height = 24
+      BevelInner = bvNone
+      BevelKind = bkFlat
+      BevelOuter = bvNone
+      BiDiMode = bdLeftToRight
+      BorderStyle = bsNone
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clGray
+      Font.Height = -13
+      Font.Name = 'Tahoma'
+      Font.Style = []
+      ParentBiDiMode = False
+      ParentFont = False
+      TabOrder = 1
+    end
+    object ECertif: TEdit
+      AlignWithMargins = True
+      Left = 112
+      Top = 114
+      Width = 300
+      Height = 24
+      BevelInner = bvNone
+      BevelKind = bkFlat
+      BevelOuter = bvNone
+      BiDiMode = bdLeftToRight
+      BorderStyle = bsNone
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clGray
+      Font.Height = -13
+      Font.Name = 'Tahoma'
+      Font.Style = []
+      ParentBiDiMode = False
+      ParentFont = False
+      TabOrder = 2
+    end
+    object EOficios: TEdit
+      AlignWithMargins = True
+      Left = 112
+      Top = 147
+      Width = 300
+      Height = 24
+      BevelInner = bvNone
+      BevelKind = bkFlat
+      BevelOuter = bvNone
+      BiDiMode = bdLeftToRight
+      BorderStyle = bsNone
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clGray
+      Font.Height = -13
+      Font.Name = 'Tahoma'
+      Font.Style = []
+      ParentBiDiMode = False
+      ParentFont = False
+      TabOrder = 3
+    end
+    object EReport: TEdit
+      AlignWithMargins = True
+      Left = 112
+      Top = 180
+      Width = 300
+      Height = 24
+      BevelInner = bvNone
+      BevelKind = bkFlat
+      BevelOuter = bvNone
+      BiDiMode = bdLeftToRight
+      BorderStyle = bsNone
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clGray
+      Font.Height = -13
+      Font.Name = 'Tahoma'
+      Font.Style = []
+      ParentBiDiMode = False
+      ParentFont = False
+      TabOrder = 4
+    end
+    object DirInstall: TButton
+      Left = 425
+      Top = 51
+      Width = 30
+      Height = 20
+      Caption = '...'
+      TabOrder = 5
+      OnClick = BCancelaClick
+    end
+    object DirBackups: TButton
+      Left = 425
+      Top = 84
+      Width = 30
+      Height = 20
+      Caption = '...'
+      TabOrder = 6
+      OnClick = BCancelaClick
+    end
+    object DirCertif: TButton
+      Left = 425
+      Top = 117
+      Width = 30
+      Height = 20
+      Caption = '...'
+      TabOrder = 7
+      OnClick = BCancelaClick
+    end
+    object DirOficios: TButton
+      Left = 425
+      Top = 150
+      Width = 30
+      Height = 20
+      Caption = '...'
+      TabOrder = 8
+      OnClick = BCancelaClick
+    end
+    object DirReport: TButton
+      Left = 425
+      Top = 183
+      Width = 30
+      Height = 20
+      Caption = '...'
+      TabOrder = 9
+      OnClick = BCancelaClick
+    end
+  end
   object Memo2: TMemo
     Left = -1
     Top = 0
@@ -15400,340 +15739,6 @@ object fPrincipal: TfPrincipal
     BevelInner = bvLowered
     BevelOuter = bvNone
     TabOrder = 5
-  end
-  object PanSix: TPanel
-    Left = 8
-    Top = 95
-    Width = 578
-    Height = 245
-    BevelOuter = bvNone
-    TabOrder = 7
-    Visible = False
-    object Label14: TLabel
-      Left = 20
-      Top = 10
-      Width = 270
-      Height = 14
-      Caption = 'La instalaci'#243'n ha terminado satisfactoriamente.....'
-      Font.Charset = DEFAULT_CHARSET
-      Font.Color = clWindowText
-      Font.Height = -12
-      Font.Name = 'Tahoma'
-      Font.Style = []
-      ParentFont = False
-    end
-    object Label15: TLabel
-      Left = 195
-      Top = 108
-      Width = 4
-      Height = 14
-      Font.Charset = DEFAULT_CHARSET
-      Font.Color = clWindowText
-      Font.Height = -12
-      Font.Name = 'Tahoma'
-      Font.Style = [fsBold]
-      ParentFont = False
-    end
-    object CheckBox2: TCheckBox
-      Left = 375
-      Top = 204
-      Width = 165
-      Height = 17
-      Checked = True
-      Font.Charset = DEFAULT_CHARSET
-      Font.Color = clWindowText
-      Font.Height = -12
-      Font.Name = 'Tahoma'
-      Font.Style = []
-      ParentFont = False
-      State = cbChecked
-      TabOrder = 0
-    end
-    object CheckBox1: TCheckBox
-      Left = 375
-      Top = 175
-      Width = 165
-      Height = 17
-      Caption = 'Crear '#237'cono en el escritorio'
-      Checked = True
-      Font.Charset = DEFAULT_CHARSET
-      Font.Color = clWindowText
-      Font.Height = -12
-      Font.Name = 'Tahoma'
-      Font.Style = []
-      ParentFont = False
-      State = cbChecked
-      TabOrder = 1
-    end
-  end
-  object PanFiv: TPanel
-    Left = 8
-    Top = 88
-    Width = 578
-    Height = 245
-    BevelOuter = bvNone
-    TabOrder = 8
-    Visible = False
-    object Label20: TLabel
-      Left = 382
-      Top = 95
-      Width = 4
-      Height = 14
-      Font.Charset = DEFAULT_CHARSET
-      Font.Color = clWindowText
-      Font.Height = -12
-      Font.Name = 'Tahoma'
-      Font.Style = []
-      ParentFont = False
-    end
-    object Label13: TLabel
-      Left = 20
-      Top = 35
-      Width = 97
-      Height = 14
-      Caption = 'Copiando archivos'
-      Font.Charset = DEFAULT_CHARSET
-      Font.Color = clWindowText
-      Font.Height = -12
-      Font.Name = 'Tahoma'
-      Font.Style = []
-      ParentFont = False
-    end
-    object ProgressBar1: TProgressBar
-      Left = 104
-      Top = 94
-      Width = 366
-      Height = 17
-      TabOrder = 0
-    end
-  end
-  object PanFou: TPanel
-    Left = 8
-    Top = 96
-    Width = 578
-    Height = 245
-    BevelOuter = bvNone
-    TabOrder = 9
-    Visible = False
-    object Label7: TLabel
-      Left = 20
-      Top = 10
-      Width = 305
-      Height = 14
-      Caption = 'Indique la ubicaci'#243'n de instalaci'#243'n y carpetas adicionales'
-      Font.Charset = DEFAULT_CHARSET
-      Font.Color = clWindowText
-      Font.Height = -12
-      Font.Name = 'Tahoma'
-      Font.Style = []
-      ParentFont = False
-    end
-    object Label8: TLabel
-      Left = 40
-      Top = 52
-      Width = 61
-      Height = 14
-      Caption = 'Instalar en:'
-      Font.Charset = DEFAULT_CHARSET
-      Font.Color = clWindowText
-      Font.Height = -12
-      Font.Name = 'Tahoma'
-      Font.Style = []
-      ParentFont = False
-    end
-    object Label9: TLabel
-      Left = 53
-      Top = 85
-      Width = 48
-      Height = 14
-      Caption = 'Backups:'
-      Font.Charset = DEFAULT_CHARSET
-      Font.Color = clWindowText
-      Font.Height = -12
-      Font.Name = 'Tahoma'
-      Font.Style = []
-      ParentFont = False
-    end
-    object Label10: TLabel
-      Left = 20
-      Top = 118
-      Width = 81
-      Height = 14
-      Caption = 'Certificaciones:'
-      Font.Charset = DEFAULT_CHARSET
-      Font.Color = clWindowText
-      Font.Height = -12
-      Font.Name = 'Tahoma'
-      Font.Style = []
-      ParentFont = False
-    end
-    object Label11: TLabel
-      Left = 62
-      Top = 151
-      Width = 39
-      Height = 14
-      Caption = 'Oficios:'
-      Font.Charset = DEFAULT_CHARSET
-      Font.Color = clWindowText
-      Font.Height = -12
-      Font.Name = 'Tahoma'
-      Font.Style = []
-      ParentFont = False
-    end
-    object Label12: TLabel
-      Left = 48
-      Top = 184
-      Width = 53
-      Height = 14
-      Caption = 'Reportes:'
-      Font.Charset = DEFAULT_CHARSET
-      Font.Color = clWindowText
-      Font.Height = -12
-      Font.Name = 'Tahoma'
-      Font.Style = []
-      ParentFont = False
-    end
-    object EInstall: TEdit
-      Left = 112
-      Top = 48
-      Width = 300
-      Height = 24
-      AutoSelect = False
-      AutoSize = False
-      BevelInner = bvNone
-      BevelKind = bkFlat
-      BevelOuter = bvNone
-      BiDiMode = bdLeftToRight
-      BorderStyle = bsNone
-      Font.Charset = DEFAULT_CHARSET
-      Font.Color = clGray
-      Font.Height = -13
-      Font.Name = 'Tahoma'
-      Font.Style = []
-      ParentBiDiMode = False
-      ParentFont = False
-      TabOrder = 0
-    end
-    object EBackups: TEdit
-      AlignWithMargins = True
-      Left = 112
-      Top = 81
-      Width = 300
-      Height = 24
-      BevelInner = bvNone
-      BevelKind = bkFlat
-      BevelOuter = bvNone
-      BiDiMode = bdLeftToRight
-      BorderStyle = bsNone
-      Font.Charset = DEFAULT_CHARSET
-      Font.Color = clGray
-      Font.Height = -13
-      Font.Name = 'Tahoma'
-      Font.Style = []
-      ParentBiDiMode = False
-      ParentFont = False
-      TabOrder = 1
-    end
-    object ECertif: TEdit
-      AlignWithMargins = True
-      Left = 112
-      Top = 114
-      Width = 300
-      Height = 24
-      BevelInner = bvNone
-      BevelKind = bkFlat
-      BevelOuter = bvNone
-      BiDiMode = bdLeftToRight
-      BorderStyle = bsNone
-      Font.Charset = DEFAULT_CHARSET
-      Font.Color = clGray
-      Font.Height = -13
-      Font.Name = 'Tahoma'
-      Font.Style = []
-      ParentBiDiMode = False
-      ParentFont = False
-      TabOrder = 2
-    end
-    object EOficios: TEdit
-      AlignWithMargins = True
-      Left = 112
-      Top = 147
-      Width = 300
-      Height = 24
-      BevelInner = bvNone
-      BevelKind = bkFlat
-      BevelOuter = bvNone
-      BiDiMode = bdLeftToRight
-      BorderStyle = bsNone
-      Font.Charset = DEFAULT_CHARSET
-      Font.Color = clGray
-      Font.Height = -13
-      Font.Name = 'Tahoma'
-      Font.Style = []
-      ParentBiDiMode = False
-      ParentFont = False
-      TabOrder = 3
-    end
-    object EReport: TEdit
-      AlignWithMargins = True
-      Left = 112
-      Top = 180
-      Width = 300
-      Height = 24
-      BevelInner = bvNone
-      BevelKind = bkFlat
-      BevelOuter = bvNone
-      BiDiMode = bdLeftToRight
-      BorderStyle = bsNone
-      Font.Charset = DEFAULT_CHARSET
-      Font.Color = clGray
-      Font.Height = -13
-      Font.Name = 'Tahoma'
-      Font.Style = []
-      ParentBiDiMode = False
-      ParentFont = False
-      TabOrder = 4
-    end
-    object DirInstall: TButton
-      Left = 425
-      Top = 51
-      Width = 30
-      Height = 20
-      Caption = '...'
-      TabOrder = 5
-    end
-    object DirBackups: TButton
-      Left = 425
-      Top = 84
-      Width = 30
-      Height = 20
-      Caption = '...'
-      TabOrder = 6
-    end
-    object DirCertif: TButton
-      Left = 425
-      Top = 117
-      Width = 30
-      Height = 20
-      Caption = '...'
-      TabOrder = 7
-    end
-    object DirOficios: TButton
-      Left = 425
-      Top = 150
-      Width = 30
-      Height = 20
-      Caption = '...'
-      TabOrder = 8
-    end
-    object DirReport: TButton
-      Left = 425
-      Top = 183
-      Width = 30
-      Height = 20
-      Caption = '...'
-      TabOrder = 9
-    end
   end
   object Timer1: TTimer
     Enabled = False
